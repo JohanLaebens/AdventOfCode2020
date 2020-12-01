@@ -25,7 +25,7 @@ public class Day1b {
             {
                 for (int k = j+1; k<allLines.size();k++){
                     int sum = Integer.parseInt(allLines.get(i)) + Integer.parseInt(allLines.get(j)) + Integer.parseInt(allLines.get(k));
-                    System.out.println("SUM: " + i +"+" + j +"+"+ k +"=" + sum);
+             //       System.out.println("SUM: " + i +"+" + j +"+"+ k +"=" + sum);
                     if (sum == 2020)
                     {
                         System.out.println("GEVONDEN!!!!");
