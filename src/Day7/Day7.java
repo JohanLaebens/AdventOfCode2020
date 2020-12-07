@@ -24,6 +24,8 @@ public class Day7 {
 
         readFile("input");
 
+        long start_time = System.currentTimeMillis();
+
         findTypesOfBag();
 //        System.out.println("typesOfBag:");
 //        for (int i = 0;i<typesOfBag.size();i++)
@@ -55,6 +57,9 @@ public class Day7 {
 
         System.out.println("Count: " + typesOfBagToContainShinyGoldBag.size());
 
+        long end_time = System.currentTimeMillis();
+        long difference = end_time-start_time;
+        System.out.println("Time (ms): " + difference);
     }
 
     private void findBagsWhichCanHoldOtherBags() {
